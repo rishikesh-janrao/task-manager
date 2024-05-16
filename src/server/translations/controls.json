@@ -1,0 +1,15 @@
+{
+  "all_tasks": "All Tasks",
+  "task_to_do": "Tasks To Do",
+  "task_in_progress": "Tasks In Progress",
+  "completed_tasks": "Completed Tasks",
+  "new_task":"New Task",
+  "search_tasks":"Search Tasks",
+  "new_task_title_placeholder":"Add a task name e.g. Create a form to create task.",
+  "new_task_description_placeholder":"Add task description here e.g. Create a new form which will take title and description and create a task.",
+  "save":"Save",
+  "update":"Update",
+  "cancel":"Cancel",
+  "move":"Move",
+  "move_confirmation_comment_placeholder":"Leave a comment about the update before changing ticket status"
+}

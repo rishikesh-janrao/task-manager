@@ -1,0 +1,112 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+}
+.layout--desktop {
+  flex-direction: row;
+  position: fixed;
+}
+.layout__board {
+  display: flex;
+  background-color: var(--bg-white);
+  width: 100%;
+  overflow: scroll;
+}
+.layout--mobile {
+  overflow-y: scroll;
+  gap: 0.5rem;
+  & .layout__new-task {
+    display: flex;
+  }
+}
+.layout__manager-heading {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.layout__manager-new-task-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-white);
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--bg-white);
+}
+.layout__manager-search-task {
+  background-color: var(--bg-white);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.layout__manager-add-new-task {
+  width: 80%;
+}
+.layout__board-new-task-form {
+  display: flex;
+  padding: 5%;
+  justify-content: left;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+.layout__title-input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  border: 1px solid var(--bg-gray);
+}
+.layout__description-input {
+  height: auto;
+  font-size: 1.2rem;
+}
+.layout__form-controls {
+  display: flex;
+  gap: 1rem;
+}
+.layout__board-new-task-heading {
+  display: flex;
+  color: var(--bg-gray);
+}
+.layout__error-text {
+  color: var(--text-error) !important;
+}
+.layout__manager-search-task-icon {
+  width: 30px;
+  height: 100%;
+  margin-left: -2rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.layout__board-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2%;
+  width: 100%;
+  background-color: var(--bg-gray);
+  overflow-y: scroll;
+}
+.layout__board-list-by-status,
+.layout__board-list-by-status-skeleton {
+  width: 100%;
+  padding: 0.5rem 0;
+}
+.MuiAccordionSummary-content {
+  margin: 0px !important;
+}
+.MuiCardHeader-title {
+  font-size: 1rem !important;
+}
+.MuiCardHeader-subheader {
+  font-size: 0.6rem !important;
+}
+.layout__view-task {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+}
